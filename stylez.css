@@ -1,0 +1,356 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+  }
+  
+  .StartPageGridMain {
+    display: grid;
+    grid-template-columns: 2fr 5fr 2fr;
+  }
+  
+  .startPageHeader {
+    background-color: darkslategray;
+  }
+  
+  
+  .ApeHeader {
+    background-color: rgb(27, 29, 31);
+  }
+  
+  .theChoiceInvisible {
+    color: #3d4254;
+  }
+  
+  .theChoiceGridMain {
+    display: grid;
+    grid-template-columns: 3fr 4fr 3fr;
+  }
+  
+  .registerGridMain {
+    display: grid;
+    grid-template-columns: 3fr 4fr 3fr;
+  }
+  
+  .apeGridMain {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+  }
+  
+  main {
+    display: grid;
+  }
+  
+  .startPageMain {
+    background-color: teal;
+  }
+  
+  .theChoiceMain {
+    background-color: #3d4254;
+  }
+  .apeMain {
+    background-color: #2c2f33;
+  }
+  
+  .menuText {
+    color: white;
+    font-size: auto;
+    text-decoration: none;
+    transition-duration: 0.3s;
+  }
+  
+  .menuText:hover {
+    font-size: 20px;
+  }
+  
+  nav {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  
+  nav a {
+    color: white;
+    font-size: auto;
+    text-decoration: none;
+    transition-duration: 0.3s;
+  }
+  
+  div a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  div a:hover {
+    background-color: #ffffff18;
+  }
+  
+  .darkBlueBKG:hover {
+    background-color: #535970;
+  }
+  
+  .lightDarkBlueBKG:hover {
+    background-color: #45557c;
+  }
+  
+  .orangeBKG:hover {
+    background-color: #e76037;
+  }
+  
+  .box {
+    margin: 10px;
+    padding: 10px;
+  }
+  
+  .border-radius-10px {
+    border-radius: 10px;
+  }
+  
+  input {
+    background-color: #2f3a55;
+    color: rgb(168, 179, 197);
+    padding: 5px;
+  }
+  
+  .border-radius-2px {
+    border-radius: 2px;
+    border-style: none;
+  }
+  
+  .startPage-box-border-colour {
+    border: 15px solid #cdb372;
+  }
+  
+  .startPage-box-background-colour {
+    background-color: #f17048;
+  }
+  
+  .ape-background-colour {
+    background-color: #1f2227;
+  }
+  
+  .theChoice-box-border-colour {
+    border-top: 75px solid #333847;
+    border-bottom: 75px solid #333847;
+    border-left: 150px solid #333847;
+    border-right: 150px solid #333847;
+  }
+  
+  .theChoice-box-small-border-colour {
+    border-top: 40px solid #333847;
+    border-bottom: 40px solid #333847;
+    border-left: 45px solid #333847;
+    border-right: 45px solid #333847;
+    border-radius: 0px;
+  }
+  
+  .theChoice-box-background-colour {
+    background-color: #364261;
+  }
+  
+  .box-w {
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+  }
+  
+  .box-w-border-colour {
+    border: 15px solid #cdb3729d;
+  }
+  
+  .box-w-background-colour {
+    background-color: #ecebebfa;
+  }
+  
+  .h-75 {
+    height: 75px;
+  }
+  
+  .h-100 {
+    height: 100px;
+  }
+  
+  .h-175 {
+    height: 175px;
+  }
+  
+  .h-190 {
+    height: 190px;
+  }
+  
+  .h-300 {
+    height: 300px;
+  }
+  
+  .h-500 {
+    height: 500px;
+  }
+  
+  .h-700 {
+    height: 700px;
+  }
+  
+  .textSize18 {
+    font-size: 16px;
+  }
+  
+  .small-bigText {
+    font-size: 28px;
+  }
+  
+  .bigText {
+    font-size: 30px;
+  }
+  
+  .biggerText {
+    font-size: 50px;
+    font-weight: bold;
+  }
+  
+  .bigger-ishText {
+    font-size: 40px;
+  }
+  
+  .divider {
+    width: 2px;
+    height: 16px;
+    background-color: white;
+  }
+  
+  .collapsable {
+    position: relative;
+  }
+  
+  .close-btn {
+    position: absolute;
+    right: -10px;
+    top: -10px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #cdb372;
+    color: black;
+    transition-duration: 0.2s;
+    width: 32px;
+    height: 32px;
+    border-radius: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+  }
+  
+  .close-btn:hover {
+    color: #e76037;
+    cursor: pointer;
+  }
+  
+  .flex {
+    display: flex;
+  }
+  
+  .centered {
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .pos-right {
+    justify-content: flex-end;
+  }
+  
+  .salmon {
+    color: #f48461;
+  }
+  
+  .red {
+    color: red;
+  }
+  
+  .white {
+    color: white;
+  }
+  
+  .textAllign {
+    text-align: justify;
+  }
+  
+  .padding-L-20 {
+    padding-right: 20px;
+  }
+  
+  .padding-L-R-20 {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  
+  .padding-L-R-25 {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  
+  .padding-L-R-30 {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  
+  .padding-L-R-50 {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  
+  .margin-L-50 {
+    margin-left: 50px;
+  }
+  
+  .padding-T-B-20 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  
+  .padding-T-B-50 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  
+  .margin-T-20 {
+    margin-top: 20px;
+  }
+  
+  .orangeBox {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+  }
+  
+  .orangeBox-black {
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    width: auto;
+    height: 100%;
+    min-width: 50%;
+  }
+  
+  .SiamangImgSize {
+    border-radius: 12px;
+    padding: 25px;
+    width: 367px;
+    height: 429px;
+    justify-content: space-evenly;
+  }
+  
+  .HowlerImgSize {
+    border-radius: 12px;
+    padding: 25px;
+    width: 365px;
+    height: 431px;
+    justify-content: space-evenly;
+  }
+  
