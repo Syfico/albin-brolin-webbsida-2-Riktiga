@@ -1,4 +1,8 @@
 .red {
+    color: #ff0505
+}
+
+.yellow {
     color: #ffcb05
 }
 
@@ -14,7 +18,7 @@
     font-family: 'Pokemon Solid', sans-serif;
 }
 
-.button {
+.pokemonButton {
     border-color:  linear-gradient(52deg, rgba(34,193,195,1) 0%, rgba(141,190,122,1) 42%, rgba(145,190,119,1) 69%, rgba(34,193,195,1) 100%);
     margin: 1.5%;
     line-height: 160%;
@@ -40,6 +44,10 @@
     justify-content: center;
 }
 
+.menuText {
+    text-decoration: none;
+}
+
 .wrap {
     flex-flow: wrap column;
 }
@@ -55,6 +63,14 @@ body {
     height: 100vh;
 }
 
+.wideBox {
+    width: auto;
+    height: auto;
+    /* color: #ff0505; */
+    /* background-color: #2a75bb; */
+
+    padding: 10px;
+}
 
 /*.smallBox {
     width: 640px;

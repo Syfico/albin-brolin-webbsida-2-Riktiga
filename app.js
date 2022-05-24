@@ -3,5 +3,5 @@ var nameList = ["Bulbasaur", "Ivysaur", "Venusaur", "Charmander", "Charmeleon", 
 // var imageList = ["1280px-Siamang_Hellabrunn_2004 (1"]
 function pokemonNamn() {
     document.getElementById("randomName").innerHTML = nameList[Math.floor(Math.random() * nameList.length)];
-    document.getElementById("monke").innerHTML = imageList[Math.floor(Math.random() * imageList.length)];
+    // document.getElementById("monke").innerHTML = imageList[Math.floor(Math.random() * imageList.length)];
 }

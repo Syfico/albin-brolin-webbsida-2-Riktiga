@@ -14,75 +14,21 @@
 <body style="max-height: 100vh;" class="blue">
     <main class="">
         <header>
-            <div class="wideBox red">
-
+            <div style="align-items: center; justify-content: space-evenly" class="flex wideBox pokemonFont">
+                <nav style="align-items: center; justify-content:space-between;" class="flex">
+                    <a class="menuText yellow" href="index.html">Home</a>
+                </nav>  
+               <div style="width: 600px"></div>
+                <nav style="align-items: center; justify-content:space-between;" class="flex">
+                    <a class="menuText yellow" href="AboutUs.html">Help</a>
+                </nav>
             </div>
         </header>
-        <div style="width: 100%" class="flex centered wrap">
-            <div style="font-size: 40px;" class="red pokemonFont" id="randomName"></div>
-            <input type="button" class="button" onclick="pokemonNamn()" value="Click me"/>
+        <div style="width: 100%; padding-top: 20%" class="flex centered wrap">
+            <div style="font-size: 40px;" class="yellow pokemonFont" id="randomName"></div>
+            <input type="button" class="pokemonButton" onclick="pokemonNamn()" value="Click me"/>
         </div>
     </main>
 </body>
 </html> 
 
-
-
-<!--<!DOCTYPE html>
-
-<html lang="en">
-
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Pokémon Name Generator</title>
-        <link rel="stylesheet" href="stylez.css">
-        <meta name="description" content="A pretty neat Pokemon name generator someone has made.">
-    </head>
-      
-    <body class="ColumnGrid">
-        <header class="startPageHeader">
-            <img src="./pictures/Kailhelia.png" alt="Logotype" width="150">
-        </header>
-
-        <main class="startPageMain StartPageGridMain">
-
-            <aside class="left">
-                <nav>
-                    <a class="menuText" href="index.html">Home</a>
-                    <a class="menuText" href="theChoice.html">Images</a> 
-                    <a class="menuText" href="aboutUs.html">Abous Us</a>
-                </nav>
-                <div style="text-align:center; padding:20px;" class="box border-radius-10px startPage-box-border-colour startPage-box-background-colour">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa soluta alias tenetur explicabo eveniet, obcaecati veritatis nulla officia laborum, maiores at placeat. A illum atque pariatur? Rem omnis nemo nobis saepe soluta voluptatum distinctio quo, eligendi maxime porro quia dicta minus consectetur eveniet eum odio a assumenda nesciunt cupiditate quaerat aliquam. Assumenda tempora enim perspiciatis voluptates doloribus dolor fugiat ipsam facilis maiores nihil exercitationem debitis, recusandae sint alias odio repellendus cumque, nobis iste. Officia odio labore recusandae obcaecati placeat nobis voluptatem laudantium molestiae qui. Quos earum hic id ad. Ea corporis ullam non, natus, expedita amet tempore repudiandae autem neque hic accusamus unde esse distinctio excepturi quae ex delectus quaerat atque ducimus ad veniam aliquam? Blanditiis magni illum ipsam porro dolor magnam, officia sapiente nemo doloremque maiores perspiciatis exercitationem mollitia culpa unde consequatur dolores ipsum. Cumque, et? Quod provident, molestiae, corporis expedita qui suscipit vero odit, ab voluptate voluptatum totam inventore a temporibus soluta placeat. Laudantium, sequi! Minus cupiditate consectetur doloribus aspernatur culpa veritatis illo itaque iusto iure perferendis, harum inventore ullam optio officia magni exercitationem corporis sunt ea, laboriosam dicta fugiat nihil quidem excepturi veniam! Magnam quasi ab soluta illo consequatur, reprehenderit modi eligendi repellat perferendis repellendus explicabo, velit qui maiores quos eaque! Perspiciatis at obcaecati, nisi quia doloremque alias expedita omnis placeat nulla totam. Ea totam hic sapiente provident culpa quas nostrum, amet sed et, necessitatibus labore quia quo, voluptas praesentium? Natus dolorem nam vitae blanditiis tenetur vel neque possimus, in maiores atque eveniet sed! Autem itaque velit dolore molestiae in officia id ipsum aspernatur qui incidunt esse assumenda, veniam alias rem sed. </div>
-            </aside>
-            
-            <section class="content">
-                <div class="box-w box-w-border-colour box-w-background-colour h-100 collapsable">
-                    <div class="close-btn">X</div>
-                </div>
-                <div style="text-align:center;" class="box border-radius-10px flex h-500 startPage-box-border-colour startPage-box-background-colour bigText centered"> Are you looking for top secret leaked images from North Korea?</div>
-                <div style="text-align:center;" class="box border-radius-10px flex h-100 startPage-box-border-colour startPage-box-background-colour bigText centered"> Are you ready for the truth?</div>
-                <div style="text-align:center;" class="box border-radius-10px flex h-100 startPage-box-border-colour startPage-box-background-colour bigText centered"> 
-                    <nav>
-                        <a href="theChoice.html" class="orangeBKG">Yes</a>
-                        <p> ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ or ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎</p>
-                        <a href="index.html" class="orangeBKG">No</a>
-                    </nav>
-                </div>
-            </section>
-
-            <aside class="right">
-                <nav>
-                    <a class="menuText" href="logIn.html">Login</a>
-                    <div class="divider"></div>
-                    <a class="menuText" href="register.html">Register</a>
-                </nav>
-                <div style="text-align:center; padding:20px;" class="box border-radius-10px startPage-box-border-colour startPage-box-background-colour">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa soluta alias tenetur explicabo eveniet, obcaecati veritatis nulla officia laborum, maiores at placeat. A illum atque pariatur? Rem omnis nemo nobis saepe soluta voluptatum distinctio quo, eligendi maxime porro quia dicta minus consectetur eveniet eum odio a assumenda nesciunt cupiditate quaerat aliquam. Assumenda tempora enim perspiciatis voluptates doloribus dolor fugiat ipsam facilis maiores nihil exercitationem debitis, recusandae sint alias odio repellendus cumque, nobis iste. Officia odio labore recusandae obcaecati placeat nobis voluptatem laudantium molestiae qui. Quos earum hic id ad. Ea corporis ullam non, natus, expedita amet tempore repudiandae autem neque hic accusamus unde esse distinctio excepturi quae ex delectus quaerat atque ducimus ad veniam aliquam? Blanditiis magni illum ipsam porro dolor magnam, officia sapiente nemo doloremque maiores perspiciatis exercitationem mollitia culpa unde consequatur dolores ipsum. Cumque, et? Quod provident, molestiae, corporis expedita qui suscipit vero odit, ab voluptate voluptatum totam inventore a temporibus soluta placeat. Laudantium, sequi! Minus cupiditate consectetur doloribus aspernatur culpa veritatis illo itaque iusto iure perferendis, harum inventore ullam optio officia magni exercitationem corporis sunt ea, laboriosam dicta fugiat nihil quidem excepturi veniam! Magnam quasi ab soluta illo consequatur, reprehenderit modi eligendi repellat perferendis repellendus explicabo, velit qui maiores quos eaque! Perspiciatis at obcaecati, nisi quia doloremque alias expedita omnis placeat nulla totam. Ea totam hic sapiente provident culpa quas nostrum, amet sed et, necessitatibus labore quia quo, voluptas praesentium? Natus dolorem nam vitae blanditiis tenetur vel neque possimus, in maiores atque eveniet sed! Autem itaque velit dolore molestiae in officia id ipsum aspernatur qui incidunt esse assumenda, veniam alias rem sed. </div>
-            </aside>
-
-        </main>
-
-    </body>
-
-</html>
