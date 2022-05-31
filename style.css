@@ -67,34 +67,6 @@ body {
 .wideBox {
     width: auto;
     height: auto;
-    /* color: #ff0505; */
-    /* background-color: #2a75bb; */
-
     padding: 10px;
 }
-
-/*.smallBox {
-    width: 640px;
-    height: 360px;
-    z-index: auto;
-
-}
-
-.gridRow {
-    display: grid;
-    grid-template-rows: 200px auto;
-}
-
-.mninWidth {
-    min-width: 500px;
-}
-
-
-.mninHeight {
-    min-height: 400px;
-} */
-
-
-
-
 
